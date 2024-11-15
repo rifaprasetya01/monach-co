@@ -1,0 +1,30 @@
+/* Import another style here */
+@import url('./header.css');
+
+/* Dont touch below */
+:root {
+  /* Primary Colors */
+  --primary-yellow: #ffb946;
+  --accent-orange: #ff9a3a;
+  --secondary-green: #00a389;
+
+  /* Grayscale Colors */
+  --dark-text: #333333;
+  --secondary-dark-gray: #4a4a4a;
+  --black-text: #000000;
+  --light-gray: #f1f1f1;
+
+  /* Background Colors */
+  --light-background: #fff5e5;
+  --white: #ffffff;
+
+  /* Font Style */
+  --ff-heading: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --ff-body: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
